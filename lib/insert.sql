@@ -4,7 +4,7 @@ INSERT INTO series (title, author_id, subgenre_id) VALUES
 
 INSERT INTO subgenres (name) VALUES
   ("medieval"),
-  ("space opera");
+  ("epic fantasy");
 
 INSERT INTO authors (name) VALUES
   ("George R. R. Martin"),
