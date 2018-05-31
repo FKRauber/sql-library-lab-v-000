@@ -10,17 +10,25 @@ INSERT INTO authors (name) VALUES
   ("George R. R. Martin"),
   ("Brandon Sanderson");
 
-INSERT INTO books (title, year, series_id) VALUES 
-  ("Game of Thrones", 1996, 1), 
-  ("A Clash of Kings", 1998, 1), 
-  ("A Storm of Swords", 2000, 1), 
-  ("The Way of Kings", 2010, 2), 
-  ("Words of Radiance", 2014, 2), 
+INSERT INTO books (title, year, series_id) VALUES
+  ("Game of Thrones", 1996, 1),
+  ("A Clash of Kings", 1998, 1),
+  ("A Storm of Swords", 2000, 1),
+  ("The Way of Kings", 2010, 2),
+  ("Words of Radiance", 2014, 2),
   ("Oathbringer", 2017, 2);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Lady", "Woof Woof", "direwolf", 1, 1), (2, "Tyrion Lannister", "A Lannister always pays his debts", "human", 1, 1), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 1), (4, "Eddard Stark", "Winter is coming", "human", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES 
+  ("Lady", "Woof Woof", "direwolf", 1, 1), 
+  ("Tyrion Lannister", "A Lannister always pays his debts", "human", 1, 1), 
+  ("Daenerys Targaryen", "If I look back I am lost", "human", 1, 1), 
+  ("Eddard Stark", "Winter is coming", "human", 1, 1);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Character One", "motto one", "cylon", 2, 2), (6, "Character Two", "motto two", "human", 2, 2), (7, "Character Three", "motto three", "cylon", 2, 2), (8, "Character Four", "motto four", "cylon", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES 
+  ("Kaladin", "CHILD OF TANAVAST, CHILD OF HONOR, CHILD OF ONE LONG SINCE DEPARTED.", "Alethi Radiant", 2, 2), 
+  ("Shallan", "A chrysalis with the potential for grandeur inside.", "Veden Radiant", 2, 2), 
+  ("Mraize", "The way men kill one another says far more about a culture than any scholar's ethnography", "Thaylen human", 2, 2), 
+  ("Wit", "Imperial Fool of the Rose Empire", "Yolish Herald", 2, 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
 
