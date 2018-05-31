@@ -1,6 +1,10 @@
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
-
+  name
+  motto
+  species
+  author_id,
+  series_id
 );
 
 CREATE TABLE books (
