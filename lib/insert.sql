@@ -27,7 +27,7 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES
   ("Kaladin", "CHILD OF TANAVAST, CHILD OF HONOR, CHILD OF ONE LONG SINCE DEPARTED.", "Alethi Radiant", 2, 2),
   ("Shallan", "A chrysalis with the potential for grandeur inside.", "Veden Radiant", 2, 2),
-  ("Mraize", "The way men kill one another says far more about a culture than any scholar's ethnography", "Thaylen human", 2, 2),
+  ("Mraize", "The way men kill one another says far more about a culture than any scholar's ethnography", "human", 2, 2),
   ("Wit", "Imperial Fool of the Rose Empire", "Yolish Herald", 2, 2);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES
