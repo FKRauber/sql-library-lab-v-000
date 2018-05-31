@@ -20,4 +20,5 @@ CREATE TABLE authors (
 
 CREATE TABLE sub_genres (
   id INTEGER PRIMARY KEY,
+  name TEXT
 );
